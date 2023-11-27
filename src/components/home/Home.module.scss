@@ -1,0 +1,15 @@
+
+.homeContainer {
+    height: calc(100dvh - 64px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        font-size: 4.5rem;
+
+        strong {
+            margin-left: 64px;
+        }
+    }
+}

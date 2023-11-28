@@ -1,15 +1,16 @@
 
 .homeContainer {
-    height: calc(100dvh - 64px);
+    height: calc(100dvh - 72px);
 
     display: flex;
     align-items: center;
     justify-content: center;
     h1 {
         font-size: 4.5rem;
-
+        max-width: 800px;
         strong {
             margin-left: 64px;
+            font-weight: bolder;
         }
     }
 }

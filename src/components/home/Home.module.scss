@@ -1,16 +1,42 @@
 
 .homeContainer {
-    height: calc(100dvh - 72px);
 
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // justify-content: space-between;
+
+    background: #202731;
+    margin: 0;
+    overflow-x: hidden;
+    height: 100dvh;
+
+    // h1 {
+    //     font-size: 5rem;
+    //     opacity: 0.5;
+    // }
+
+    // h1:first-child {
+    //        align-self: flex-start;
+    // }
+
+    // h1:last-child {
+    //     align-self: flex-end;
+    // }
+    
+}
+
+section {
+    position: relative;
     display: flex;
-    align-items: center;
     justify-content: center;
-    h1 {
-        font-size: 4.5rem;
-        max-width: 800px;
-        strong {
-            margin-left: 64px;
-            font-weight: bolder;
-        }
-    }
+    align-items: center;
+    min-height: calc(100vh - 72px);
+    background: #250821;
+}
+
+.blob {
+    position: absolute;
+    width: 900px;
+    height: 500px;
 }

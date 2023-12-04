@@ -10,7 +10,7 @@ import { Contact } from './components/contact/Contact';
 function App() {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/skills' element={<Skills/>} />

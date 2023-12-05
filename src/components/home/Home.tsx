@@ -5,7 +5,6 @@ import styles from './Home.module.scss';
 export function Home() {
     return (
         <div className={styles.homeContainer}>
-        
             <div className={styles.info}>
                 <h1>
                     Víctor Muniz
@@ -25,8 +24,6 @@ export function Home() {
                 </div>
             </section>
             <div className={`${styles.spacer} ${styles.layer2}`}></div>
-            
-
         </div>
     );
 }

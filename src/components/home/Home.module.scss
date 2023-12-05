@@ -1,76 +1,93 @@
 
 .homeContainer {
-    background: #202731;
     margin: 0;
     overflow-x: hidden;
     height: 100dvh;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: start;
     align-items: center;
-   
-    .info {
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 800px;
-        height: 400px;
 
-        h1 {
-            color: inherit;
-            font-size: 5rem;
-            opacity: 0.5;
+    .mainSection {
+        transform: translateX(150px);
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 0;
+
+        .blob {
+            position: absolute;
         }
+        
+        .blob:nth-child(2) {
+            filter: blur(30px);
+        }
+
+        .info {
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 900px;
+            height: 320px;
+            mix-blend-mode: overlay;
+            color: white;
+
     
-        h1:first-child {
-            align-self: flex-start;
+            h1 {
+                font-size: 5rem;
+                text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+                transition: 0.5s;
+                opacity: 0.9;
+                cursor: default;
+            }
+        
+            h1:first-child {
+                align-self: flex-start;
+            }
+        
+            h1:last-child {
+                align-self: flex-end;
+            }
+
+            h1:hover {
+                letter-spacing: 3px;
+            }
         }
+    }
     
-        h1:last-child {
-            align-self: flex-end;
-        }
+    .spacer {
+        height: 200px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .layer1 {
+        background-image: url('/src/assets/waves3.svg');
+        background-position: center top;
+        position: absolute;
+        top: 0;
+    }
+    
+    .layer2 {
+        
+        background-image: url('/src/assets/waves4.svg');
+        background-position: center bottom;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        
+    }
+
+    .nav {
+        position: absolute;
+        top: 50%;
+        right: 100px;
     }
     
 }
 
-section {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #250821;
-    z-index: 0;
-}
 
-.blob {
-    position: absolute;
-}
-
-.blob:nth-child(2) {
-    filter: blur(30px);
-}
-
-.spacer {
-    height: 200px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-.layer1 {
-    background-image: url('/src/assets/waves3.svg');
-    background-position: center top;
-    position: absolute;
-    top: 0;
-}
-
-.layer2 {
-    
-    background-image: url('/src/assets/waves4.svg');
-    background-position: center bottom;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    
-}

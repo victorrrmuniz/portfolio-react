@@ -4,7 +4,9 @@
 
     --gray-800: #303030;
 
-    --purple-700: rgb(92, 0, 92);
+    --blue-700: #202731;
+
+    --purple-200: rgb(131, 99, 180);
 }
 
 * {
@@ -14,7 +16,7 @@
 }
 
 body {
-    background-color: var(--white);
+    background-color: var(--blue-700);
     color: var(--white);
     font-family: 'Roboto', sans-serif;
 }

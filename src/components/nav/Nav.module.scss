@@ -1,18 +1,17 @@
 
 
 .navContainer {
-    top: 0;
-    bottom: 0;
     background-color: inherit;
     height: 72px;
 
     ul {
+        width: 800px;
         height: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 32px;
+        gap: 8px;
         
         font-weight: bold;
         font-size: 1.2rem;
@@ -23,17 +22,31 @@
             padding: 14px;
             border-radius: 10px;
             transition: filter 0.3s;
-            color: var(--white);
+            width: 100%;
+            text-align: right;
 
+            
             a {
-                color: var(--white);
+                color: white;
+                text-decoration: none;
+                text-shadow: 0 3px 7px rgba(0, 0, 0, 1);
+                font-size: 8rem;
+                opacity: 0.8;
+                line-height: 0.5;
+
+                transition: 0.3s;
+            }
+
+            a:hover {
+                color: var(--purple-200);
+                letter-spacing: 5px;
+            }
+
+            a:active {
+                color: white;
                 text-decoration: none;
             }
         }
-    
-        
-
-        
     }
     
 

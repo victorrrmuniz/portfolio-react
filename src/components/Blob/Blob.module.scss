@@ -4,9 +4,9 @@ svg {
 }
 
 .startGradient {
-    stop-color: rgb(59, 34, 96);
+    stop-color: var(--purple-700);
 }
 
 .endGradient {
-    stop-color: rgb(24, 11, 44);
+    stop-color: var(--purple-800);
 }

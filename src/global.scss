@@ -18,7 +18,8 @@
 }
 
 body {
-    background-color: var(--blue-700);
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+
     color: var(--white);
     font-family: 'Roboto', sans-serif;
 }

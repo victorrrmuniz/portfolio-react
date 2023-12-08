@@ -6,9 +6,7 @@ import VanillaTilt from 'vanilla-tilt';
 export function Contact() {
 
     const options = {
-        scale: 2,
-        speed: 1000,
-        reverse: true,
+        speed: 700,
     }
     const tilt1 = useRef(null);
     const tilt2 = useRef(null);

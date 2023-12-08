@@ -2,6 +2,8 @@
 import { useEffect, useRef } from 'react';
 import styles from './Contact.module.scss';
 import VanillaTilt from 'vanilla-tilt';
+import { Background } from '../background/Background';
+import { Nav } from '../nav/Nav';
 
 export function Contact() {
 
@@ -25,22 +27,30 @@ export function Contact() {
     return (
         <div className={styles.contactContainer}>
             <section className={styles.contentContainer}>
+                <section>
+                    <Background /> 
+                    <Nav />
+                </section>
                 <div>
-                    <h1>Entre em contato!</h1>
-                </div>
+                    <div className={styles.title}>
+                        <h1>Entre em contato!</h1>
+                    </div>
 
-                <div ref ={tilt1}>
-                    <img src="/src/assets/gmail.svg" alt="Gmail" />
-                    <p>victorrmunizz@gmail.com</p>
-                </div>
-                
-                <div ref ={tilt2}>
-                    <img src="/src/assets/github.svg" alt="Github" />
-                    <p>victorrrmuniz</p>
-                </div>
-                <div ref ={tilt3}>
-                    <img src="/src/assets/linkedin.svg" alt="Linkedin" />
-                    <p>victormunizz</p>
+                    <div className={styles.contacts}>
+                        <div ref ={tilt1}>
+                            <img src="/src/assets/gmail.svg" alt="Gmail" />
+                            <p>victorrmunizz@gmail.com</p>
+                        </div>
+                        
+                        <div ref ={tilt2}>
+                            <img src="/src/assets/github.svg" alt="Github" />
+                            <p>victorrrmuniz</p>
+                        </div>
+                        <div ref ={tilt3}>
+                            <img src="/src/assets/linkedin.svg" alt="Linkedin" />
+                            <p>victormunizz</p>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

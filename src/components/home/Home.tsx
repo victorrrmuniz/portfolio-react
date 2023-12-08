@@ -1,5 +1,4 @@
 
-import { useEffect, useRef } from 'react';
 import { Background } from '../background/Background';
 import { Nav } from '../nav/Nav';
 import styles from './Home.module.scss';

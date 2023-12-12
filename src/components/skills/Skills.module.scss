@@ -26,6 +26,10 @@
             gap: 80px;
 
             margin-top: 128px;
+
+            h1 {
+                text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
+            }
     
             ul {
                 list-style: none;
@@ -72,6 +76,7 @@
                         &::first-letter {
                             font-size: 4rem;
                             font-weight: bolder;
+                            text-shadow: 0 5px 10px rgba(0, 0, 0, 1);
                         }
                     } 
                 }

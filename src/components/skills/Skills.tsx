@@ -24,18 +24,21 @@ export function Skills() {
                                 </span>
                             </span>
                             <span className={styles.skillContent}>
-                                A minha primeira linguagem de programação foi C#, introduzida durante o curso técnico em informática integrado
-                                ao ensino médio no Instituto Federal de São Paulo em 2011. Desde então, tenho continuamente aprimorado minhas
-                                habilidades nesta linguagem, mantendo-me atualizado com as últimas versões. Com experiência profissional desde 2019,
-                                a maioria das minhas experiências profissionais tem sido centrada na plataforma .NET Core, utilizando C#, 
-                                o que solidificou meu conhecimento nessa tecnologia.
+                                Meu primeiro contato na programação ocorreu com a linguagem C#, durante o curso técnico em informática 
+                                integrado ao ensino médio no Instituto Federal de São Paulo, no ano de 2011. Desde então, tenho dedicado 
+                                esforços contínuos para aprimorar minhas habilidades nessa linguagem, acompanhando de perto as mais recentes atualizações.
+                                Com uma trajetória profissional que teve início em 2019, a maior parte das minhas experiências tem se concentrado na 
+                                plataforma .NET Core, utilizando C#. Essa vivência tem desempenhado um papel fundamental no fortalecimento e aprofundamento 
+                                do meu conhecimento nessa tecnologia. Estou comprometido em manter-me atualizado com as últimas tendências e 
+                                práticas, garantindo assim que minha expertise esteja alinhada com as demandas do setor.
                             </span>
                         </li>
                         <li>
                             <span className={styles.skillContent}>
-                                Minha jornada no desenvolvimento web também teve início durante meu ensino técnico, e desde então, tenho continuamente 
-                                empregado essas tecnologias ao longo de toda a minha trajetória profissional. Esse percurso contribuiu significativamente 
-                                para a consolidação de uma base sólida nessas tecnologias.
+                                Minha jornada no desenvolvimento web começou durante o ensino técnico, e desde então, tenho consistentemente 
+                                aplicado essas tecnologias ao longo de toda a minha carreira profissional. Essa trajetória desempenhou um papel 
+                                crucial na consolidação de uma base sólida nos meus conhecimentos de desenvolvimento web, 
+                                proporcionando-me expertise prática e conhecimento aprofundado.
                             </span>
                             <span className={styles.skillImages}>
                                 <span>
@@ -56,12 +59,19 @@ export function Skills() {
                             </span>
 
                             <span className={styles.skillContent}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta obcaecati vel assumenda illo sit iusto, repellendus aut sequi odio non nulla deleniti alias. Sunt saepe quos quo quae ut.
+                                Conto com quatro anos de experiência na construção de Single Page Applications (SPAs) utilizando o 
+                                framework Angular. Certamente, é o framework frontend no qual possuo maior proficiência. Minhas habilidades 
+                                incluem o domínio de ferramentas como RxJs, NgRx e a realização de testes unitários com Jasmine, entre outras 
+                                competências relacionadas. Essa bagagem técnica tem contribuído significativamente para a eficácia e qualidade 
+                                dos projetos em que tenho trabalhado.
                             </span>
                         </li>
                         <li>
                             <span className={styles.skillContent}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta obcaecati vel assumenda illo sit iusto, repellendus aut sequi odio non nulla deleniti alias. Sunt saepe quos quo quae ut.
+                                Desde os meus primeiros envolvimentos com a computação, estabeleci um contato profissional 
+                                constante com bancos de dados relacionais, experiência essa que foi se aprimorando ao longo de minha 
+                                trajetória profissional. Apesar de possuir conhecimentos em diversos sistemas de gerenciamento de bancos de dados, 
+                                minha especialização concentra-se principalmente no PostgreSQL e no Microsoft SQL Server
                             </span>
                             <span className={styles.skillImages}>
                                 <span>
@@ -73,12 +83,21 @@ export function Skills() {
                         <li>
                             <span className={styles.skillImages}>
                                 <span>
-                                    <img src="/src/assets/nodejs.svg" />
+                                <img src="/src/assets/nextjs.svg" />
+
                                     <img src="/src/assets/react.svg" />
+                                </span>
+                                <span>
+                                <img src="/src/assets/nodejs.svg" />
+
                                 </span>
                             </span>
                             <span className={styles.skillContent}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque dicta obcaecati vel assumenda illo sit iusto, repellendus aut sequi odio non nulla deleniti alias. Sunt saepe quos quo quae ut.
+                                Embora minha experiência profissional com React seja relativamente breve, tenho demonstrado agilidade 
+                                em me adaptar às tecnologias em demanda no mercado. Atualmente, tenho direcionado meus estudos para 
+                                aprofundar meu conhecimento em React, explorando também as possibilidades oferecidas pelo Next.js e 
+                                Node.js. Este foco em constante aprendizado reflete meu compromisso em acompanhar as últimas tendências 
+                                e aprimorar minhas habilidades para contribuir de maneira sólida em projetos envolvendo essas tecnologias.
                             </span>
                         </li>
                     </ul>

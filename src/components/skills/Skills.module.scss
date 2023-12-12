@@ -7,6 +7,7 @@
     .contentContainer {
         width: 80%;
         max-width: 2000px;
+        min-height: calc(100dvh - 128px);
 
         margin: 64px 0;
         
@@ -40,7 +41,7 @@
                     flex-direction: row;
                     justify-content: space-around;
                     align-items: center;
-                    gap: 64px;
+                    gap: 48px;
 
                     .skillImages {
                         display: flex;

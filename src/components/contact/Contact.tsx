@@ -1,5 +1,5 @@
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Contact.module.scss';
 import VanillaTilt from 'vanilla-tilt';
 import { Background } from '../background/Background';
@@ -14,6 +14,9 @@ export function Contact() {
     const tilt2 = useRef(null);
     const tilt3 = useRef(null);
 
+    const [tooltipVisible, setTooltipVisible] = useState(false);
+
+
     useEffect(() => {
         if (tilt1.current)
             VanillaTilt.init(tilt1.current, options)
@@ -23,7 +26,16 @@ export function Contact() {
             VanillaTilt.init(tilt3.current, options)
     }, [options]);
 
-        
+    const handleCopyToClipboard = () => {
+        navigator.clipboard.writeText('victorrmunizz@gmail.com');
+
+        setTooltipVisible(true);
+
+        setTimeout(() => {
+            setTooltipVisible(false);
+        }, 5000);
+    }
+
     return (
         <div className={styles.contactContainer}>
             <section className={styles.contentContainer}>
@@ -37,19 +49,26 @@ export function Contact() {
                     </div>
 
                     <div className={styles.contacts}>
-                        <div ref ={tilt1}>
+                        <div ref ={tilt1} onClick={handleCopyToClipboard}>
                             <img src="/assets/gmail.svg" alt="Gmail" />
-                            <p>victorrmunizz@gmail.com</p>
+                            <p>
+                                victorrmunizz@gmail.com
+                                <img className={styles.copyIcon} src="/assets/copy-icon.svg" alt="Copy" />
+                                {tooltipVisible && <p className={styles.tooltip}>E-mail copiado!</p>}
+                            </p>
                         </div>
-                        
-                        <div ref ={tilt2}>
-                            <img src="/assets/github.svg" alt="Github" />
-                            <p>victorrrmuniz</p>
-                        </div>
-                        <div ref ={tilt3}>
-                            <img src="/assets/linkedin.svg" alt="Linkedin" />
-                            <p>victormunizz</p>
-                        </div>
+                        <a href="https://github.com/victorrrmuniz" target="_blank">
+                            <div ref ={tilt2}>
+                                <img src="/assets/github.svg" alt="Github" />
+                                <p>victorrrmuniz</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/victormunizz/" target="_blank">
+                            <div ref ={tilt3}>
+                                <img src="/assets/linkedin.svg" alt="Linkedin" />
+                                <p>victormunizz</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </section>

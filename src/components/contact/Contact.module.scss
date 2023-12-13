@@ -40,6 +40,11 @@
                 align-items: center;
                 gap: 32px;
     
+                a {
+                    color: var(--white);
+                    text-decoration: none;
+                }
+
                 div {
                     margin: 0 auto;
                     width: 900px;
@@ -56,14 +61,36 @@
                     }
             
                     p {
+                        position: relative;
                         font-size: 2.5rem;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        gap: 24px;
                     }
             
                     &:hover {
                         cursor: pointer;
                         backdrop-filter: brightness(1.4);
                     }
+
+                    .tooltip {
+                        position: absolute;
+                        top: -3.5rem;
+                        right: 0;
+
+                        font-size: 0.9rem;
+                        text-shadow: none;
+                        padding: 10px;
+                        background-color: #090a0f;
+                        border-radius: 8px;
+                    }
                 }
+                
+                .copyIcon {
+                    height: 2.5rem;
+                }
+
             }
         }
     }

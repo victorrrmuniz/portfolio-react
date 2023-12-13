@@ -38,16 +38,16 @@ export function Contact() {
 
                     <div className={styles.contacts}>
                         <div ref ={tilt1}>
-                            <img src="/src/assets/gmail.svg" alt="Gmail" />
+                            <img src="/assets/gmail.svg" alt="Gmail" />
                             <p>victorrmunizz@gmail.com</p>
                         </div>
                         
                         <div ref ={tilt2}>
-                            <img src="/src/assets/github.svg" alt="Github" />
+                            <img src="/assets/github.svg" alt="Github" />
                             <p>victorrrmuniz</p>
                         </div>
                         <div ref ={tilt3}>
-                            <img src="/src/assets/linkedin.svg" alt="Linkedin" />
+                            <img src="/assets/linkedin.svg" alt="Linkedin" />
                             <p>victormunizz</p>
                         </div>
                     </div>

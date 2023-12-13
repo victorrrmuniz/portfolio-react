@@ -19,8 +19,8 @@ export function Skills() {
                         <li>
                             <span className={styles.skillImages}>
                                 <span>
-                                    <img src="/src/assets/netcore.svg" />
-                                    <img src="/src/assets/csharp.svg" />
+                                    <img src="/assets/netcore.svg" />
+                                    <img src="/assets/csharp.svg" />
                                 </span>
                             </span>
                             <span className={styles.skillContent}>
@@ -42,19 +42,19 @@ export function Skills() {
                             </span>
                             <span className={styles.skillImages}>
                                 <span>
-                                    <img src="/src/assets/html.svg" />
-                                    <img src="/src/assets/css.svg" />
+                                    <img src="/assets/html.svg" />
+                                    <img src="/assets/css.svg" />
                                 </span>
                                 <span>
-                                    <img src="/src/assets/javascript.svg" />
-                                    <img src="/src/assets/sass.svg" />
+                                    <img src="/assets/javascript.svg" />
+                                    <img src="/assets/sass.svg" />
                                 </span>
                             </span>
                         </li>
                         <li>
                             <span className={styles.skillImages}>
                                 <span>
-                                    <img src="/src/assets/angular.svg" />
+                                    <img src="/assets/angular.svg" />
                                 </span>
                             </span>
 
@@ -75,20 +75,20 @@ export function Skills() {
                             </span>
                             <span className={styles.skillImages}>
                                 <span>
-                                    <img src="/src/assets/postgresql.svg" />
-                                    <img src="/src/assets/sqlserver.svg" />
+                                    <img src="/assets/postgresql.svg" />
+                                    <img src="/assets/sqlserver.svg" />
                                 </span>
                             </span>
                         </li>
                         <li>
                             <span className={styles.skillImages}>
                                 <span>
-                                <img src="/src/assets/nextjs.svg" />
+                                <img src="/assets/nextjs.svg" />
 
-                                    <img src="/src/assets/react.svg" />
+                                    <img src="/assets/react.svg" />
                                 </span>
                                 <span>
-                                <img src="/src/assets/nodejs.svg" />
+                                <img src="/assets/nodejs.svg" />
 
                                 </span>
                             </span>
